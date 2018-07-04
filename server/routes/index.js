@@ -1,5 +1,5 @@
-const categoryRoute = require('./category.route');
+const UserRoute = require('./user.route');
 
 module.exports = (router) => {
-    categoryRoute(router);
+    UserRoute(router);
 }
